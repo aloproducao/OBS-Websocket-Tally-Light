@@ -11,7 +11,9 @@
 You can Download the various versions of the OBS Tally Light here:
 
 |α 1.1| [Download MediFire](https://www.mediafire.com/file/59v5fbqkgh50x2b/Tally.zip/file) | [Dowload Google Drive ](https://drive.google.com/file/d/166KBxtbutRRM6xPE5KKxYh8fDXpKXNNc/view?usp=sharing) |
+
 |~~α 1.0~~| [~~Download MediFire~~] | [~~Dowload Google Drive ~~] |
+
 You'll need also the OBS-WebsocketPlugin. You can download it [here](https://github.com/Palakis/obs-websocket/releases/tag/4.8.0)
 
 ## Installation
