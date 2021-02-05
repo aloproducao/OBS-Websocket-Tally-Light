@@ -28,4 +28,14 @@ You'll need also the OBS-WebsocketPlugin. You can download it [here](https://git
  5. Delete everything in the htdocs foler
  
  6. Extract the tally files into the htdocs folder
+  
+ 7. To open the tally type into your browser 
+ 
+ > Localhost
+ 
+ 8. To open it on an other device open cmd and type in 
+ 
+ >ipconfig
+ 
+ 9. Loock at IPV4-adress and type it into your other device
 
