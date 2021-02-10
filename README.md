@@ -10,7 +10,7 @@
 ## Download
 You can Download the various versions of the OBS Tally Light here:
 
-|α 1.1| [Download MediFire](https://www.mediafire.com/file/59v5fbqkgh50x2b/Tally.zip/file) | [Dowload Google Drive ](https://drive.google.com/file/d/166KBxtbutRRM6xPE5KKxYh8fDXpKXNNc/view?usp=sharing) |
+|α 1.1| [Download MediFire](http://bit.ly/3tUOsBs) | [Dowload Google Drive ](http://bit.ly/3aPCNeh) |
 
 |~~α 1.0~~| ~~Download MediFire~~ | ~~Dowload Google Drive~~  |
 
