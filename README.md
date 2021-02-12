@@ -2,7 +2,7 @@
 
 ## Features
  - [x] OBS-Websockt plugin
- - [x] Script funtion 
+ - [x] Script funtion (Google Docs)
  - [x] Digital clock
  - [x] Online offline tally
  - [ ] Livestream Viewer (in progress)
