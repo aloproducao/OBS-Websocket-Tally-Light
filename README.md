@@ -22,7 +22,7 @@ There is not that much to set up:
 -   The only file you need is the OBSliveTally.html
     
 
-By default it is setup to connect to the IP of the machine you run it on(127.0.0.1). You can change that default start value by editing the IP address and/or the port in line 8. You can open the file directly with a webbrowser or use a  [simple webserver](https://github.com/maditnerd/WinSimpleHTTP)  somewhere on the network to serv it to local clients. This tool does NOT need an any internet connection to work.
+By default it is setup to connect to the IP of the machine you run it on(127.0.0.1). You can change that default start value by editing the IP address and/or the port in line 85. You can open the file directly with a webbrowser or use a  [simple webserver](https://www.apachefriends.org/de/index.html)  somewhere on the network to serv it to local clients. This tool does NOT need an any internet connection to work.
 
 ## Features
  - [x] OBS-Websockt plugin
@@ -34,14 +34,14 @@ By default it is setup to connect to the IP of the machine you run it on(127.0.0
 ## General Usage
 
 -   Open the Index.html in a web browser (On a pc, laptop, tablet, smartphone)
-- Press the "Tally" button
+-   Press the "Tally" button
 -   You can change the ip here to the address of your obs machine. If you edited it in the file as mentioned above it will show up here already filled in.
 -   Click on the "Connect Websocket" button
 -   If the connection to the obs machine was successful, a list of buttons will show up with all your scenes and sources from obs and another button on top called "Stream Status"
 ### Show Stream Status
 
 -   Click the "Stream Status" button
--   That's it. It will show OFFLINE and a white background if you're not streaming and LIVE with a red background when the stream is live
+-   That's it. It will show OFFLINE and a black background if you're not streaming and LIVE with a red background when the stream is live
 
 
 ### Show Scene Tally
