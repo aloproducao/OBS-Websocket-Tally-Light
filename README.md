@@ -14,11 +14,11 @@ There is not that much to set up:
     
 -   Download this repository and unpack or clone it
 	
-	|α 1.1 | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |___________________SOON
+	|α 1.1 | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |.............soon
 
-	|α 1.1 | [Download MediFire](http://bit.ly/3tUOsBs) | [Dowload Google Drive ](http://bit.ly/3aPCNeh) |
+	|α 1.1 | [Download MediFire](http://bit.ly/3tUOsBs) | [Dowload Google Drive ](http://bit.ly/3aPCNeh) |.............new
 
-	|~~α 1.0~~ | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |
+	|~~α 1.0~~ | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |.............Old
     
 
 By default it is setup to connect to the IP of the machine you run it on(127.0.0.1). You can change that default start value by editing the IP address and/or the port in line 85 (Pages/Tally.html). You can also change the scriptlink in line 85 (Pages/Script.html).You can open the file directly with a webbrowser or use a  [simple webserver](https://www.apachefriends.org/de/index.html)  somewhere on the network to serv it to local clients. This tool does NOT need an any internet connection to work.
