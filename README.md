@@ -14,7 +14,7 @@ There is not that much to set up:
     
 -   Download this repository and unpack or clone it
 	
-	|α 1.1 | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |.............soon
+	|α 1.2 | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |.............soon
 
 	|α 1.1 | [Download MediFire](http://bit.ly/3tUOsBs) | [Dowload Google Drive ](http://bit.ly/3aPCNeh) |.............new
 
