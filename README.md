@@ -1,7 +1,7 @@
 # OBS-Websocket-Tally-Light-Alpha-1.2
 This small "webpage" connects to any OBS instance on the local network and displays either the stream status (live/offline) or tally information for different scenes or sources(on air/in preview/neither).
 
-[TOC]
+
 
 ## Setup
 
