@@ -15,7 +15,7 @@ There is not that much to set up:
     
 -   Download this repository and unpack or clone it
 	
-	|α 1.2 | ~~Download MediFire~~ | ~~Download Google Drive~~  |
+	|α 1.3 | ~~Download MediFire~~ | ~~Download Google Drive~~  |
 
 	|α 1.2 | [Download MediFire](http://www.mediafire.com/file/s5iugf5qbu0e1f8/Tally_Alpha_1.2_release.zip/file) | [Download Google Drive](https://drive.google.com/file/d/1fgyc8j2WDBuf5B4w_QwH64COIK5WIiPq/view?usp=sharing)  |
 
