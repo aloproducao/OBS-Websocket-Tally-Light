@@ -1,5 +1,7 @@
-# OBS-Websocket-Tally-Light-Alpha-1.1
+# OBS-Websocket-Tally-Light-Alpha-1.2
 This small "webpage" connects to any OBS instance on the local network and displays either the stream status (live/offline) or tally information for different scenes or sources(on air/in preview/neither).
+
+[TOC]
 
 ## Setup
 
@@ -7,21 +9,21 @@ There is not that much to set up:
 
  - Install the awesome  [obs-websocket plugin](https://github.com/Palakis/obs-websocket/releases)  by Palakis (Version >= 4.7.0)
 
-    
 -   Open the "Tools" menu and select "websocket server settings"
     
--   Make sure that "Enable Websocket server" is checked, "Server Port" is 4444 and "Enable authentification" is unchecked
+-   Make sure that "Enable Websocket server" is checked, "Server Port" is 4444 and "Enable authentication" is unchecked
     
 -   Download this repository and unpack or clone it
 	
-	|α 1.2 | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |.............soon
+	|α 1.2 | ~~Download MediFire~~ | ~~Download Google Drive~~  |.............Soon
 
-	|α 1.1 | [Download MediFire](http://bit.ly/3tUOsBs) | [Dowload Google Drive ](http://bit.ly/3aPCNeh) |.............new
+	|α 1.2 | [Download MediFire](http://www.mediafire.com/file/s5iugf5qbu0e1f8/Tally_Alpha_1.2_release.zip/file) | [Download Google Drive](https://drive.google.com/file/d/1fgyc8j2WDBuf5B4w_QwH64COIK5WIiPq/view?usp=sharing)  |.............New
 
-	|~~α 1.0~~ | ~~Download MediFire~~ | ~~Dowload Google Drive~~  |.............Old
-    
-
-By default it is setup to connect to the IP of the machine you run it on(127.0.0.1). You can change that default start value by editing the IP address and/or the port in line 85 (Pages/Tally.html). You can also change the scriptlink in line 85 (Pages/Script.html).You can open the file directly with a webbrowser or use a  [simple webserver](https://www.apachefriends.org/de/index.html)  somewhere on the network to serv it to local clients. This tool does NOT need an any internet connection to work.
+	|α 1.1 | [Download MediFire](http://bit.ly/3tUOsBs) | [Download Google Drive ](http://bit.ly/3aPCNeh) |
+	
+	|α 1.0 | ~~Download MediFire~~ | ~~Download Google Drive~~  |.............on Request
+	
+	By default it is setup to connect to the IP of the machine you run it on(127.0.0.1). You can change that default start value by editing the IP address and/or the port in line 85 (Pages/Tally.html). You can also change the scriptlink in (Links/ScriptLink.html).You can open the file directly with a webbrowser or use a  [simple webserver](https://www.apachefriends.org/de/index.html)  somewhere on the network to serv it to local clients. This tool does NOT need an any internet connection to work.
 
 ## Features
  - [x] OBS-Websockt plugin
@@ -54,4 +56,9 @@ By default it is setup to connect to the IP of the machine you run it on(127.0.0
 -   If studio mode is disabled there will be only a red and black display, no green
 ### Show Source Tally
 
-You can also show the tally status for individual sources. Every scene that containes that source will be handled like described in Show Scene Tally above. The page will update the scenes every 30 seconds in case you add the source to a new scenes after starting the tally. But i recoment to reload the page.
+You can also show the tally status for individual sources. Every scene that contains that source will be handled like described in Show Scene Tally above. The page will update the scenes every 30 seconds in case you add the source to a new scenes after starting the tally. But i recommend to reload the page.
+
+
+
+
+
