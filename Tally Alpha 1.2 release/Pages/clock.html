@@ -1,0 +1,171 @@
+<!doctype html><head>
+
+	<link rel="icon" type="image/svg+xml" href="../Images/favicon.svg" sizes="any">
+	<link rel="stylesheet" href="../Styles/Style.css">
+
+	<title>OBS Clock</title>
+
+	<body style="background-color: #0e0e0e;"></body>
+
+
+<script style="text-align: center;">
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('clock').innerHTML =
+			h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
+		return i;
+	}
+</script>
+
+
+<script style="text-align: center;">
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('clock2').innerHTML =
+			h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
+		return i;
+	}
+</script>
+
+<body onload="startTime()">
+
+
+	<table class="Table">
+		<tbody>
+			<tr>
+				<td style="width: 25%; vertical-align: middle;">
+
+					<a href="../index.html">
+						<div class="container">
+
+							<img src="../Images/OBSTally.svg" class="image">
+
+					<div class="overlay">
+						<div class="text" style="font-family: Arial, Helvetica, sans-serif">Home</div>
+
+					</div>
+						</div>
+							</div>
+					</a>
+
+				</td>
+
+
+
+
+
+						<td style="width: 25%; text-align: center; ">
+					<div style="text-align: center; line-height: 1;"><span title="GUI by HewelDesign"
+							style="font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(255, 255, 255); line-height: 1;">OBS
+							Tally</span></div><br>
+				</td>
+
+
+
+
+
+				<td style="width: 25%; text-align: center; vertical-align: middle; ">
+					        <div style="text-align: center; line-height: 1;"><span
+							style="font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(255, 255, 255);  line-height: 1;">
+							<div id="clock"></div>
+						    </span></div><br>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p></p>
+	<hr class="line">
+	<p></p>
+
+
+
+
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td style="width: 5%;">
+
+
+                </td>
+
+
+
+
+
+
+                <td style="width: 90%; text-align: center;">
+
+    <div><span id="clock2" style="font-family: Arial, Helvetica, sans-serif; font-size: 128px; color: rgb(255, 255, 255);  line-height: 1; text-align: center; align-content: center;"> </span></div>
+
+                </td>
+
+
+
+
+
+
+                <td style="width: 5%;">
+
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+
+
+
+
+
+     </table>
+</body>
+
+
+
+<body>
+	<table class="Table">
+		<tbody>
+			<tr>
+					<td style="width: 33%; align-content: left; ">
+					<div>
+						<a href="https://github.com/HewelDesign/OBS-Websocket-Tally-Light">
+						<img src="../Images/github.svg" style="width: 4%;" >
+					</a>
+						<a href="https://obsproject.com/forum/resources/obs-websocket-tally-light-%CE%B1.1204/">
+						<img src="../Images/obs-studio.svg" style="width: 4%;" >
+					</a>
+						</div>
+					</td>
+					<td style="width: 33%; text-align: center; ">
+					<div style="text-align: center; line-height: 1;"><span title="&#169 2020 HewelDesign"
+							style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: rgb(255, 255, 255); line-height: 1;">&#169 2020 HewelDesign</span></div><br>
+					</td>
+
+					<td style="width: 33%; align-content: left; ">
+
+
+					</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
